@@ -3,23 +3,37 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    font-family: Work Sans, sans-serif;
+  html { 
+    @apply text-slate-800 font-sans;
   }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat, sans-serif;
-    color: #0a49bd;
+  h1, h2, h3, h4, h5, h6 { 
+    @apply text-scblue font-serif;
+    ;
   }
-  p{
-    font-family: Open Sans, sans-serif;
+  p{ 
+    @apply text-slate-800 font-sans;
   }
-}
- 
-main {
-  overflow: hidden;
-} 
 
-.bg-scblue-nav {
-  background: rgba(6, 41, 107, 0.666);
+  input, select, textarea {
+    @apply mt-1 px-3 py-2 block w-full;
+
+  }
 }
- 
+
+@layer components {
+  .sc-link{
+    @apply hover:text-scblue ease-in-out duration-500 cursor-pointer;
+  }
+  .sc-link-icon{
+    @apply w-10 h-10 hover:text-scblue ease-in-out duration-500 cursor-pointer;
+  }
+  .form-input {
+    @apply rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0;
+  }
+}
+
+@layer utilities {
+  .bg-scblue-nav {
+    background: rgba(6, 41, 107, 0.75); 
+  }
+}

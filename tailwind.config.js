@@ -7,8 +7,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans' : 'ui-sans-serif, Work Sans, sans-serif',
-      'serif' : 'ui-serif, PT Serif Caption, serif',
+      'sans' : 'Open Sans, sans-serif',
+      'serif' : 'Fira Sans, sans-serif',
     },
     opacity: {
       '0': '0',
