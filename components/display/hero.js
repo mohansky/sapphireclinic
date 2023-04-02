@@ -11,9 +11,10 @@ export default function Hero({ item }) {
         <div className="w-full h-full absolute top-0 left-0 z-0 bg-top">
           <Image
             src={item.img}
-            alt=''
-            width={1920}
-            height={1080}
+            alt={item.subtitle} 
+            // width={1920}
+            // height={1080}
+            fill
             className="w-full h-full object-cover"
             priority
           />
