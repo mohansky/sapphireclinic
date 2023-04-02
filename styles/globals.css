@@ -25,7 +25,7 @@
     @apply hover:text-scblue ease-in-out duration-500 cursor-pointer;
   }
   .sc-link-icon{
-    @apply w-10 h-10 hover:text-scblue ease-in-out duration-500 cursor-pointer;
+    @apply w-10 h-10 hover:text-scblue hover:scale-110 ease-in-out duration-500 cursor-pointer;
   }
   .form-input {
     @apply rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0;
