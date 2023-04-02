@@ -5,7 +5,8 @@ import Head from "next/head";
 import PageTitle from "@display/page-title";
 import { sortByWeight } from "../../utils";
 import TreatmentCard from "@display/treatment-card";
-import Container from "@layout/container"; 
+import Container from "@layout/container";
+import { SITE_NAME } from "../../lib/constants";
 
 export default function Treatments({ posts }) {
   const CosmetologyList = posts.filter((post) => post.frontmatter.subtitle == "Cosmetology");
@@ -15,8 +16,9 @@ export default function Treatments({ posts }) {
 
   return (
     <>
-      <Head>
-        <title> The Sapphire Clinics | Treatments </title>
+      <Head> 
+        {/* <title>{`${SITE_NAME} | Treatments`} </title> */}
+        <title> The Sapphire Clinic | Treatments </title>
         <meta name="description" content="Welcome to the Skin Clinic of Dr. Sheela Natraj."/>
         <link rel="shortcut icon" href="/images/favicon.png" />
       </Head>

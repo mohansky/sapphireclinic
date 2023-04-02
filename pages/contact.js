@@ -2,13 +2,15 @@ import Head from "next/head";
 import Form from "../components/display/form";
 import PageTitle from "@display/page-title";
 import ContactInfo from "@display/contact-info";
-import Container from "@layout/container"; 
+import Container from "@layout/container";
+import { SITE_NAME } from "../lib/constants";
 
 export default function Contact() {
   return (
     <>
-      <Head>
-        <title> The Sapphire Clinics | Contact </title>
+      <Head> 
+        {/* <title>{`${SITE_NAME} | Contact`} </title> */}
+        <title> The Sapphire Clinic | Contact </title>
         <meta name="description" content="Welcome to the Skin Clinic of Dr. Sheela Natraj."/>
         <link rel="shortcut icon" href="/images/favicon.png" />
       </Head>

@@ -12,6 +12,8 @@ import TreatmentTitle from "@display/treatment-title";
 import { sortByWeight } from "../utils";
 import Container from "@layout/container";
 import TreatmentTitleList from "@display/treatment-title-list"; 
+import ContactListing from "@display/contact-listing";
+import { SITE_NAME } from "../lib/constants";
 
 export default function Home({ posts }) {
   const CosmetologyList = posts.filter(
@@ -31,8 +33,9 @@ export default function Home({ posts }) {
   );
   return (
     <>
-      <Head>
-        <title> The Sapphire Clinics | Home </title>
+      <Head> 
+        {/* <title>{`${SITE_NAME} | Home`} </title> */}
+        <title> The Sapphire Clinic | Home </title>
         <meta name="description" content="Welcome to the Skin Clinic of Dr. Sheela Natraj."/>
         <link rel="shortcut icon" href="/images/favicon.png" />
       </Head>
@@ -42,6 +45,7 @@ export default function Home({ posts }) {
             <Hero key={index} item={item} />
           ))}
         </SliderCarousel>
+        <ContactListing/>
 
         <Container className="bg-gray-50">
           <About />

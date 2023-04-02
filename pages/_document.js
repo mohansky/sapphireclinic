@@ -25,16 +25,16 @@ export default class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <link rel="shortcut icon" href="/images/sclogo.png" />
 
-          {/* General Meta */}
-          <meta name="description" content={`We specialize in adventure, nature and culture tours across the little-known Northeast region of India. | ${SITE_NAME}.`}/>
+          {/* General Meta */}        
           <meta property="og:url" content={BASE_PATH} />
           <meta property="og:type" content="website" />
           <meta property="og:title" content={SITE_NAME}/>
-          <meta property="og:description" content={`Sapphire skin & aesthetics clinic is the place where science meets beauty. Pamper yourself in luxury at our state-of-the art clinic, where each individual is given personal attention, safest treatments and utmost discretion. | ${SITE_NAME}.`}/>
+          <meta name="description" content={`We specialize in adventure, nature and culture tours across the little-known Northeast region of India. | ${SITE_NAME}.`}/>
+          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
           <meta property="og:image:height" content="205"/>
           <meta property="og:image:width" content="300"/>
-          <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-          <meta name="keywords" content="Sapphire skin & aesthetics clinic is the place where science meets beauty. Pamper yourself in luxury at our state-of-the art clinic, where each individual is given personal attention, safest treatments and utmost discretion."/>
+          <meta property="og:description" content={`Sapphire skin & aesthetics clinic is the place where science meets beauty. Pamper yourself in luxury at our state-of-the art clinic, where each individual is given personal attention, safest treatments and utmost discretion. | ${SITE_NAME}.`}/>
+          <meta name="keywords" content="dermatologist near me, skin doctor near me, skin specialist near me, skin doctor, skin clinic near me, skin specialist, pediatric dermatologist near me, dermatology consultants, best skin doctor near me, skin care clinic near me, cosmetic dermatology, skin care clinic, the skin clinic, dermatology specialists, best skin specialist near me, derma clinic near me, skin dr near me, dermatologist for hair loss, skin dermatologist, acne dermatologist near me, skin dr, skin care doctor, skincare clinic, dermatology and aesthetics, dermatologist mole removal"/>
 
           {/* Twitter Card */}
           <meta name="twitter:card" content="summary"/>

@@ -4,7 +4,8 @@ import ImageMosaic from "@gallery/image-mosaic";
 import ImageLightbox from "@gallery/image-lightbox";
 import PageTitle from "@display/page-title";
 import GalleryCollection from "@data/gallery.json";
-import Container from "@layout/container"; 
+import Container from "@layout/container";
+import { SITE_NAME } from "../lib/constants";
 
 if (typeof window === "undefined") React.useLayoutEffect = () => {};
 
@@ -15,8 +16,9 @@ export default function Gallery({ galleryCollection }) {
 
   return (
     <>
-      <Head>
-        <title> The Sapphire Clinics | Gallery </title>
+      <Head> 
+        {/* <title>{`${SITE_NAME} | Gallery`} </title> */}
+        <title> The Sapphire Clinic | Gallery </title>
         <meta name="description" content="Welcome to the Skin Clinic of Dr. Sheela Natraj."/>
         <link rel="shortcut icon" href="/images/favicon.png" />
       </Head>
