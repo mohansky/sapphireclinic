@@ -24,9 +24,9 @@ export default function Hero({ item }) {
             <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
             {item.subtitle} 
             </h1>
-            <h4 className="text-slate-100 text-xl md:text-3xl leading-snug mt-4 ">
+            <h2 className="text-slate-100 text-xl md:text-3xl leading-snug mt-4 ">
               {item.title}
-            </h4>
+            </h2>
             <Link href={item.btnUrl}>
               {/* <ButtonOutline>
               {item.btnText}
