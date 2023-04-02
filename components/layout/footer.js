@@ -10,15 +10,15 @@ export default function Footer() {
           <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
             <Image
               src="/images/sclogo.png"
-              alt=""
+              alt="The Sapphire Clinic"
               className="w-28 mb-4"
               width={150}
               height={150}
             />
-            <h3 className="font-bold text-2xl  text-gray-500">
+            <h3 className="font-bold text-2xl  text-gray-300">
               Sapphire skin & aesthetics clinic
             </h3>
-            <p className="text-gray-400">
+            <p className="text-gray-300">
               is the place where science meets beauty. Pamper yourself in luxury
               at our state-of-the art clinic, where each individual is given
               personal attention, safest treatments and utmost discretion.
@@ -26,15 +26,15 @@ export default function Footer() {
           </div>
 
           <div className="w-full lg:w-3/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
-            <h6 className="uppercase tracking-wider font-semibold text-gray-500">
+            <h6 className="uppercase tracking-wider font-semibold text-gray-300">
               Contact Details
             </h6>
             <ul className="mt-4">
-              <li className="mt-4 cursor-text flex ">
+              <li className="mt-4 sc-link cursor-text flex ">
               <a
                   href="https://www.google.com/maps/dir//Sapphire+Skin+%26+Aesthetics+Clinic+6th+Phase+721,+24th+Main+Rd,+Marenahalli,+J+P+Nagar+Phase+5,+J.+P.+Nagar+Bengaluru,+Karnataka+560078/@12.9048941,77.5855534,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae15135995af1f:0xc650d0e6015f26c8!2m2!1d77.5855534!2d12.9048941"
                   title="Directions"
-                  className="flex items-center"
+                  className="flex"
                   target="blank"
                 >
                 <span>
@@ -96,12 +96,12 @@ export default function Footer() {
           </div>
 
           <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4">
-            <h6 className="uppercase tracking-wider font-semibold text-gray-500">
+            <h6 className="uppercase tracking-wider font-semibold text-gray-300">
             Follow us on Social media
             </h6>
-            <ul className="flex mt-4  text-white">
+            <ul className="flex mt-4 text-white">
               <li>
-                <Link href="#" target="_blank" title="">
+                <Link href="#" target="_blank" title="Facebook" aria-label="Facebook">
                   <Icon
                     icon="ph:facebook-logo"
                     className="sc-link-icon"
@@ -110,7 +110,7 @@ export default function Footer() {
               </li>
 
               <li className="ml-6">
-                <Link href="#" target="_blank" title="">
+                <Link href="#" target="_blank" title="Instagram" aria-label="Instagram">
                   <Icon
                     icon="ph:instagram-logo"
                     className="sc-link-icon"
@@ -119,7 +119,7 @@ export default function Footer() {
               </li>
 
               <li className="ml-6">
-                <Link href="#" target="_blank" title="">
+                <Link href="#" target="_blank" title="Youtube" aria-label="Youtube">
                   <Icon
                     icon="ph:youtube-logo"
                     className="sc-link-icon"
@@ -130,13 +130,13 @@ export default function Footer() {
           </div>
         </div>
         <div className="pt-12 lg:pt-24 pb-3">
-          <hr className="pb-3 border-t-1 border-gray-600"/>
+          <hr className="pb-3 border-t-1 border-gray-300"/>
           <div className="flex justify-between">
-            <p className="text-sm text-gray-600 ">
+            <p className="text-sm text-gray-300 ">
               © {new Date().getFullYear()} The Sapphire clinics. All Rights
               Reserved.
             </p>
-            <p className="text-sm text-gray-600 ">Developed by Mohan</p>
+            <p className="text-sm text-gray-300 ">Developed by Mohan</p>
           </div>
         </div>
       </footer>

@@ -28,17 +28,19 @@ export default function NavBar() {
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-none focus:bordborder-none ease-in-out duration-500"
-                  onClick={() => setNavbar(!navbar)}
+                  onClick={() => setNavbar(!navbar)} aria-label="Menu"
                 >
                   {navbar ? (
                     <Icon
                       icon="ph:x"
                       className="w-8 h-8 text-white ease-in-out duration-500 focus:border-none active:border-none"
+                      aria-label="Close Menu"
                     />
                   ) : (
                     <Icon
                       icon="ph:list"
                       className="w-8 h-8 text-white ease-in-out duration-500 focus:border-none active:border-none"
+                      aria-label="Open Menu"
                     />
                   )}
                 </button>
