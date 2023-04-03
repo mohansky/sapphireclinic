@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row">
           <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
             <Image
-              src="/images/sclogo.png"
+              src="/images/sclogo.svg"
               alt="The Sapphire Clinic"
               className="w-28 mb-4"
               width={150}
@@ -101,7 +101,7 @@ export default function Footer() {
             </h6>
             <ul className="flex mt-4 text-white">
               <li>
-                <Link href="#" target="_blank" title="Facebook" aria-label="Facebook">
+                <Link href="https://www.facebook.com/sapphireskinclinic" target="_blank" title="Facebook" aria-label="Facebook">
                   <Icon
                     icon="ph:facebook-logo"
                     className="sc-link-icon"
@@ -110,7 +110,7 @@ export default function Footer() {
               </li>
 
               <li className="ml-6">
-                <Link href="#" target="_blank" title="Instagram" aria-label="Instagram">
+                <Link href="https://www.facebook.com/sapphireskinclinic" target="_blank" title="Instagram" aria-label="Instagram">
                   <Icon
                     icon="ph:instagram-logo"
                     className="sc-link-icon"
@@ -119,7 +119,7 @@ export default function Footer() {
               </li>
 
               <li className="ml-6">
-                <Link href="#" target="_blank" title="Youtube" aria-label="Youtube">
+                <Link href="https://www.facebook.com/sapphireskinclinic" target="_blank" title="Youtube" aria-label="Youtube">
                   <Icon
                     icon="ph:youtube-logo"
                     className="sc-link-icon"

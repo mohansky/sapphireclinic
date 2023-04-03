@@ -17,11 +17,11 @@ export default function NavBar() {
             <div className="flex items-center justify-between py-1 md:py-2 md:block">
               <Link href="/" aria-label="Home Page">
                 <Image
-                  src="/images/sclogo.png"
+                  src="/images/sclogo.svg"
                   alt=""
                   className="w-24"
-                  width={125}
-                  height={125}
+                  width={50}
+                  height={50}
                   priority
                 />
               </Link>
