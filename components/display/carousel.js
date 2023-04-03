@@ -25,10 +25,9 @@ export default function SliderCarousel({ children }) {
     speed: 2500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    autoplay: false, 
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
-  return <Slider {...settings} className="flex overflow-hidden">{children}</Slider>;
+  return <Slider {...settings} >{children}</Slider>;
 }
