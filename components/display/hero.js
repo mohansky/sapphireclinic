@@ -6,7 +6,7 @@ import { imgblurDataURL } from "../../lib/constants";
 export default function Hero({ item }) {
   return (
     <>
-      <div className="relative px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-48 overflow-hidden flex items-center min-h-screen">
+      <div className="relative px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-48 overflow-hidden flex flex-shrink items-center min-h-screen">
         <div className="w-full h-full absolute top-0 left-0 z-40 bg-black opacity-20 "></div>
         <div className="w-full h-full absolute top-0 left-0 z-0 bg-top">
           <Image
@@ -16,7 +16,7 @@ export default function Hero({ item }) {
             height={1080}
             placeholder="blur"
             blurDataURL={imgblurDataURL}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover flex-shrink"
             priority
           />
         </div>

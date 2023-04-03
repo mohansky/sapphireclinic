@@ -30,5 +30,5 @@ export default function SliderCarousel({ children }) {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
-  return <Slider {...settings}>{children}</Slider>;
+  return <Slider {...settings} className="flex overflow-hidden">{children}</Slider>;
 }
