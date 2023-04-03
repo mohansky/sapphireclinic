@@ -2,6 +2,7 @@ import ButtonOutline from "@ui/button-outline";
 import Button from "@ui/button";
 import Image from "next/image";
 import Link from "next/link"; 
+import { imgblurDataURL } from "../../lib/constants";
 
 export default function Hero({ item }) {
   return (
@@ -14,6 +15,8 @@ export default function Hero({ item }) {
             alt={item.subtitle} 
             // width={1920}
             // height={1080}
+            placeholder="blur"
+            blurDataURL={imgblurDataURL}
             fill
             className="w-full h-full object-cover"
             priority
