@@ -59,7 +59,7 @@ export default function PostPage({ source, frontMatter }) {
             width={720}
             height={480}
           /> */}
-          <Col className="mx-auto w-4/6">
+          <Col className="mx-auto md:w-4/6">
             <MDXRemote {...source} components={components} />
           </Col>
 
