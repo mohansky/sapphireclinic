@@ -13,11 +13,10 @@ export default function Hero({ item }) {
           <Image
             src={item.img}
             alt={item.subtitle} 
-            // width={1920}
-            // height={1080}
+            width={1920}
+            height={1080}
             placeholder="blur"
             blurDataURL={imgblurDataURL}
-            fill
             className="w-full h-full object-cover"
             priority
           />

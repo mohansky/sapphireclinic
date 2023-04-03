@@ -7,7 +7,7 @@ export default function ContactListing() {
       {/* <div className="bg-gray-200 mx-auto py-4 px-2"> */}
       <div className="bg-gradient-to-r from-scblue via-scblue to-blue-500">
         <ul className="mx-auto lg:flex justify-center gap-20 text-white text-lg">
-          <li className="cursor-text flex hover:bg-slate-500 hover:scale-110 ease-in-out duration-500 py-10 py-lg-20 px-5 px-lg-10">
+          <li className="cursor-text flex hover:bg-slate-500 ease-in-out duration-500 py-5 py-lg-20 px-5 px-lg-10">
             <div className="m-auto flex ">
               <a
                 href="https://www.google.com/maps/dir//Sapphire+Skin+%26+Aesthetics+Clinic+6th+Phase+721,+24th+Main+Rd,+Marenahalli,+J+P+Nagar+Phase+5,+J.+P.+Nagar+Bengaluru,+Karnataka+560078/@12.9048941,77.5855534,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae15135995af1f:0xc650d0e6015f26c8!2m2!1d77.5855534!2d12.9048941"
@@ -27,7 +27,7 @@ export default function ContactListing() {
             </div>
           </li>
 
-          <li className="hover:bg-slate-500 hover:scale-110 ease-in-out duration-500 py-10 py-lg-20 px-5 px-lg-10">
+          <li className="hover:bg-slate-500 ease-in-out duration-500 py-5 py-lg-20 px-5 px-lg-10">
             <div className=" grid place-content-center">
               <a
                 href="telto:+40773701534"
@@ -62,7 +62,7 @@ export default function ContactListing() {
             </div>
           </li>
 
-          <li className="cursor-text flex hover:bg-slate-500 hover:scale-110 ease-in-out duration-500 py-10 py-lg-20 px-5 px-lg-10">
+          <li className="cursor-text flex hover:bg-slate-500 ease-in-out duration-500 py-5 py-lg-20 px-5 px-lg-10">
             <div className="m-auto flex">
               <span>
                 <Icon icon="ph:clock" className="w-6 h-6" />
