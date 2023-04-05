@@ -7,13 +7,14 @@ import About from "@display/about";
 import CTA from "@display/cta";
 import Testimonials from "@display/testimonials";
 import SliderCarousel from "@display/carousel";
-import HeroListItems from "@data/hero.json";
+import HeroListItems from "@data/hero-copy.json";
 import TreatmentTitle from "@display/treatment-title";
 import { sortByWeight } from "../utils";
 import Container from "@layout/container";
 import TreatmentTitleList from "@display/treatment-title-list"; 
 import ContactListing from "@display/contact-listing";
 import { SITE_NAME } from "../lib/constants";
+import CTAAlt from "@display/cta-alt";
 
 export default function Home({ posts }) {
   const CosmetologyList = posts.filter(
@@ -45,7 +46,7 @@ export default function Home({ posts }) {
             <Hero key={index} item={item} />
           ))}
         </SliderCarousel>
-        <ContactListing/>
+        {/* <ContactListing/> */}
 
         <Container className="bg-gray-50">
           <About />
@@ -102,7 +103,9 @@ export default function Home({ posts }) {
           </div>
         </Container>
 
-        <CTA />
+        {/* <CTA /> */}
+
+        <CTAAlt/>
 
         <Container className="bg-gray-50">
           <Testimonials />
