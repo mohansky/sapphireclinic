@@ -23,7 +23,7 @@ export default class MyDocument extends Document {
           /> */}
           <meta charSet="UTF-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <link rel="shortcut icon" href="/images/sclogo.png" />
+          <link rel="shortcut icon" href="/images/favicon.png" />
 
           {/* General Meta */}        
           <meta property="og:url" content={BASE_PATH} />
