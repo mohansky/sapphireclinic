@@ -12,11 +12,13 @@ export default function Hero({ item }) {
           <Image
             src={item.img}
             alt={item.subtitle}
-            width={1920}
-            height={1080}
+            // width={1080}
+            // height={720}
+            fill
+            // sizes="640 768"
             placeholder="blur"
             blurDataURL={imgblurDataURL}
-            className="w-full h-full object-cover flex-shrink"
+            className="object-cover"
             priority
           />
         </div>

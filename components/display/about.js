@@ -33,14 +33,21 @@ export default function About() {
 
         <div className="w-full lg:w-1/2 lg:px-8 mt-12 lg:mt-0">
           <div className="md:flex">
-            <Image src="/images/ful.jpg" width={720} height={480} alt="" />
+            <Image
+              src="/images/ful.jpg"
+              width={720}
+              height={480}
+              alt="Sapphire skin & aesthetics clinic"
+              sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw"
+            />
           </div>
 
           <div className="md:flex mt-8">
             <div className="mt-4 md:mt-0">
-              <h4 className="text-xl font-bold leading-tight">
+              <h3 className="text-xl font-bold leading-tight">
                 Sapphire skin & aesthetics clinic
-              </h4>
+              </h3>
               <p className="mt-2 leading-relaxed">
                 is the place where science meets beauty. Pamper yourself in
                 luxury at our state-of-the art clinic, where each individual is
