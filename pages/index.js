@@ -7,7 +7,7 @@ import About from "@display/about";
 import CTA from "@display/cta";
 import Testimonials from "@display/testimonials";
 import SliderCarousel from "@display/carousel";
-import HeroListItems from "@data/hero-copy.json";
+import HeroListItems from "@data/hero.json";
 import TreatmentTitle from "@display/treatment-title";
 import { sortByWeight } from "../utils";
 import Container from "@layout/container";
