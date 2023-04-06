@@ -19,7 +19,7 @@ export default function Hero({ item }) {
             placeholder="blur"
             blurDataURL={imgblurDataURL}
             className="object-cover"
-            priority
+            {...item.priority}
           />
         </div>
 
