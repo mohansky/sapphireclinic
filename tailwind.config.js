@@ -7,9 +7,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans' : 'Open Sans, sans-serif',
-      'serif' : 'Fira Sans, sans-serif',
-    },
+      'sans' : 'Montserrat, sans-serif',
+      'serif' : '"Roboto Slab", serif', 
+    }, 
     opacity: {
       '0': '0',
       '10': '.1',
@@ -24,10 +24,17 @@ module.exports = {
       '100': '1',
     },
     extend: {
-      colors: {
-        'scblue': '#0a49bd',
-        'purple': '#7e5bef',
-        'pink': '#ff49db',
+      fontFamily: { 
+        'cursive': 'Kalam, cursive', 
+      },
+      colors: { 
+        'scred': '#f88282',
+        'scred-100': '#f95d5d',
+        'scred-200': '#f83535', 
+        'scgrey': '#82a1ad',
+        'scgrey-100': '#35444a',
+        'scgrey-200': '#222b2f', 
+        'scfooterbg': '#35444a',
       },
       screens: {
         '2xl': '1600px',
