@@ -66,7 +66,7 @@ export default function Intro() {
           <ul className="my-5">
             {IntroList[0].list.map((item, index) => (
               <li className="my-10 text-xl" key={index}>
-                <span className="py-2 px-4 bg-scyellow">{index + 1}</span>
+                <span className="py-2 px-4 bg-scred">{index + 1}</span>
                 <span className="ml-3 my-5 text-xl">{item}</span>
               </li>
             ))}
