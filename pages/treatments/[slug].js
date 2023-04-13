@@ -59,7 +59,7 @@ export default function PostPage({ posts, source, frontMatter }) {
         <Container className="mb-32">
           <PageTitle> {frontMatter.title} </PageTitle>
           <div className="grid md:grid-cols-3 pb-10">
-            <aside className="w-full bg-slate-300 order-2 md:order-1 md:col-span-1 md:sticky md:top-0">
+            <aside className="bg-slate-300 order-2 md:order-1 md:col-span-1 md:sticky md:top-0">
               <ul className="p-5 sticky top-20">
                 <h5 className="text-2xl bg-slate-100 mt-10 mb-3 p-5">
                   Cosmetology

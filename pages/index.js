@@ -60,10 +60,10 @@ export default function Home({ posts }) {
         </Container>
         <Testimonials />
 
-        <Container className="grid md:grid-cols-3 gap-x-8 mb-5"> 
-            <ContactInfoSection />
-            <Map />
-            <FormMsg /> 
+        <Container className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 "> 
+            <ContactInfoSection className="order-1 md:order-1 lg:order-1 mb-8" />
+            <Map className="h-44 order-3 md:order-3 md:col-span-2  lg:order-2 mb-8"/>
+            <FormMsg className="order-2 md:order-2 lg:order-3 mb-8" /> 
         </Container>
       </main>
     </>
