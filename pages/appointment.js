@@ -33,7 +33,7 @@ export default function Appointment() {
             <ul className=" my-5">
               {AppointmentSteps.steps.map((item, index) => (
                 <li className="my-10 text-xl flex" key={index}>
-                  <span className="py-0 px-3 grid place-items-center bg-scyellow">{index + 1}</span>
+                  <span className="py-0 px-3 grid place-items-center bg-scred">{index + 1}</span>
                   {/* <span className="py-2 px-4 bg-scyellow">{index + 1}</span> */}
                   {/* <Icon icon="material-symbols:looks-one-sharp" width="30"/> */}
                   <span className="ml-3 text-xl grid place-items-center">{item}</span>
