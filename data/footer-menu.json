@@ -13,5 +13,10 @@
     "weight": "3",
     "title": "Wedding Packages",
     "url": "/#procedure"
-  } 
+  },
+  {
+    "weight": "4",
+    "title": "Appointments",
+    "url": "/appointment"
+  }  
 ] 
