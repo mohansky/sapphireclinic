@@ -7,7 +7,7 @@ export default function Testimonials() {
     <>
       <div
         className="bg-no-repeat bg-cover bg-center relative h-full"
-        style={{ backgroundImage: "url(" + "/images/test.jpg" + ")" }}
+        style={{ backgroundImage: "url(" + "/images/testimonial.jpg" + ")" }}
       >
         <div className="w-full h-full absolute top-0 left-0 bg-black/30 backdrop-blur-sm"></div>
         <div className="py-20">
