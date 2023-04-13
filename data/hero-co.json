@@ -1,0 +1,18 @@
+[
+  {
+    "img": "/images/heroskin.jpg",
+    "title": "Take time to make your skin happy.",
+    "subtitle": "Welcome to the Skin Clinic of Dr. Sheela Natraj.",
+    "btnUrl": "/contact",
+    "btnText": "Book Appointment",
+    "priority": "priority"
+  },
+  {
+    "img": "/images/heroheart.jpg",
+    "title": "Live healthy, stay young at heart.",
+    "subtitle": "Welcome to Dr. Natraj Settys Heart Clinic.",
+    "btnUrl": "/contact",
+    "btnText": "Book Appointment",
+    "priority": ""
+  }
+]

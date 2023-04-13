@@ -1,0 +1,18 @@
+[
+  {
+    "title": "facebook",
+    "URL": "https://www.facebook.com/sapphireskinclinic",
+    "icon": "fa:facebook"
+  },
+  {
+    "title": "Instagram",
+    "URL": "https://www.instagram.com/sapphireskinclinic",
+    "icon": "fa:instagram"
+  },
+
+  {
+    "title": "Youtube",
+    "URL": "https://www.youtube.com/sapphireskinclinic",
+    "icon": "fa:youtube"
+  }
+]

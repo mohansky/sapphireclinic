@@ -1,0 +1,42 @@
+[
+  {
+    "weight": "1",
+    "class": "sc-link",
+    "title": "Directions",
+    "text": [ "#718, 1st Floor, 24th Main Road,", "J.P.Nagar 6th Phase, Near Nandhini Hotel,", "Bangalore 560078" ],
+    "url": "https://www.google.com/maps/dir//Sapphire+Skin+%26+Aesthetics+Clinic+6th+Phase+721,+24th+Main+Rd,+Marenahalli,+J+P+Nagar+Phase+5,+J.+P.+Nagar+Bengaluru,+Karnataka+560078/@12.9048941,77.5855534,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae15135995af1f:0xc650d0e6015f26c8!2m2!1d77.5855534!2d12.9048941",
+    "icon": "ph:map-pin"
+  },
+  {
+    "weight": "2",
+    "class": "",
+    "title": "Timings",
+    "text": ["Mon - Sat: 10:30am - 8:30pm",  "Sun: 10:30am to 7:30pm" ],
+    "url": "",
+    "icon": "ph:clock"
+  },
+  {
+    "weight": "3",
+    "class": "sc-link",
+    "title": "Phone",
+    "text": ["+40 773 701 534"],
+    "url": "telto:+40773701534",
+    "icon": "ph:phone"
+  },
+  {
+    "weight": "4",
+    "class": "sc-link",
+    "title": "Phone",
+    "text": ["+91 974 178 3333"],
+    "url": "telto:+919741783333",
+    "icon": "ph:phone"
+  },
+  {
+    "weight": "5",
+    "class": "sc-link",
+    "title": "Email",
+    "text": ["drsheelavathi@gmail.com"],
+    "url": "mailto:drsheelavathi@gmail.com",
+    "icon": "ph:envelope-simple"
+  }
+]

@@ -1,0 +1,17 @@
+[
+    {
+      "image": "/images/doctors/DR-SHEELA-NATRAJ.jpg",
+      "name": "Dr. Sheela Natraj", 
+      "description": ["MBBS", "DVD Fellowship in Medical", "Cosmetology & Aesthetics", "Consultant Dermatologist", "KMC: 68481"]
+      },
+    {
+      "image": "/images/doctors/DR-KAVYA-H-REGANTI.jpg",
+      "name": "Dr. Kavya Reganti",
+      "description": ["MBBS", "Consultant Dermatologist", "Cosmetology & Aesthetics",  "KMC: 123456"]
+    },
+    {
+      "image": "/images/doctors/DR-GOPAL-RAJ.jpg",
+      "name": "Dr. Gopal Raj",
+      "description": ["MBBS", "MD - General Surgery", "MCH - Plastic Surgery", "MRCS - Plastic Surgery","KMC: 123456"]
+    }
+  ]

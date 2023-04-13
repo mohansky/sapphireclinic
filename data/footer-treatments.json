@@ -1,0 +1,42 @@
+[
+  {
+    "weight": "1",
+    "title": "Chemical Peels",
+    "url": "/treatments/chemical-peels"
+  },
+  {
+    "weight": "2",
+    "title": "Laser Hair Reduction",
+    "url": "/treatments/diode-laser-hair-removal"
+  },
+  {
+    "weight": "3",
+    "title": "Microdermabrasion",
+    "url": "/treatments/microdermabrasion"
+  },
+  {
+    "weight": "4",
+    "title": "Photo facial",
+    "url": "/treatments/photo-facial"
+  },
+  {
+    "weight": "5",
+    "title": "Q-Switched ND YAG Laser",
+    "url": "/treatments/"
+  },
+  {
+    "weight": "6",
+    "title": "Tattoo Removal",
+    "url": "/treatments/tattoo-removal"
+  },
+  {
+    "weight": "7",
+    "title": "PRP for Skin",
+    "url": "/treatments/prp-for-skin"
+  },
+  {
+    "weight": "8",
+    "title": "Mole Removal",
+    "url": "/treatments/mole-removal"
+  }
+]
