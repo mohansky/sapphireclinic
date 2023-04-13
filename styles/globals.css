@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { 
+    @apply text-gray-800 font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 { 
+    @apply text-scgrey font-sans;
+    ;
+  }
+  p{ 
+    @apply text-gray-800 text-lg font-serif;
+  }
+
+  input, select, textarea {
+    @apply mt-1 px-3 py-2 block w-full;
+
+  }
+}
+
+@layer components {
+  .sc-link{
+    @apply hover:text-scred-200 ease-in-out duration-500 cursor-pointer;
+  }
+  .sc-link-icon{
+    @apply w-10 h-10 hover:text-scred-200 hover:scale-110 ease-in-out duration-500 cursor-pointer;
+  }
+  .form-input {
+    @apply rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0;
+  }
+}
+
+/* @layer utilities {
+  .bg-scblue-nav {
+    background: rgba(6, 41, 107, 0.75); 
+  }
+} */
+/*  */
+
+
+.scblue {color: #0a49bd;}
+
+.scyellow {color: #f88282;}
+
+.scyellow {color: #f95d5d;}
+
+.scyellow {color: #f83535;}
+
+.scamber {color: #f3e992;}
+
+.scgrey {color: #82a1ad;}
+
+.scgrey-100 {color: #35444a;}
+
+.scgrey-200 {color: #222b2f;}
+
+.sctealdark {color: #b3c6cf;}
+
+.scteallight {color: #eaf3f6;}
+
+.scfooterbg {color: #35444a;}
