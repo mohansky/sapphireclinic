@@ -1,10 +1,11 @@
 import ContactDetailsList from "@data/footer-contacts.json";
 import { Icon } from "@iconify/react";
 
-export default function FooterContacts() {
+export default function FooterContacts({className}) {
   return (
     <>
-      <div className="w-full lg:w-3/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
+          <div className={` ${className}`}>
+      {/* <div className="w-full lg:w-3/6 mt-8 lg:mt-0 lg:mx-4 lg:pr-8"> */}
         <h6 className="uppercase tracking-wider font-semibold text-gray-300">
           Contact Details
         </h6>

@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 
-export default function ContactInfoSection() {
+export default function ContactInfoSection({className}) {
   return (
     <>
-      <div className="w-full mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
+    <div className={`w-full mt-8 lg:mt-0 lg:mx-4 lg:pr-8 ${className}`}>
+      {/* <div className="w-full mt-8 lg:mt-0 lg:mx-4 lg:pr-8"> */}
         <h5 className="uppercase tracking-wider font-semibold">
           Contact Details
         </h5>

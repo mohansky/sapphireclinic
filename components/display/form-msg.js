@@ -1,7 +1,7 @@
 import Button from "../ui/button";
 import { useForm, ValidationError } from "@formspree/react";
 
-export default function FormMsg() {
+export default function FormMsg({className}) {
   const [state, handleSubmit] = useForm("msg-form");
 
   if (state.succeeded) {
@@ -9,7 +9,8 @@ export default function FormMsg() {
   }
   return (
     <>
-      <div className="w-full mt-8 lg:mt-0 lg:mx-4 lg:pr-8">
+      <div className={`w-full mt-8 lg:mt-0 lg:mx-4 lg:pr-8 ${className}`}>
+      {/* <div className="w-full mt-8 lg:mt-0 lg:mx-4 lg:pr-8"> */}
         <h5 className="mb-4 uppercase tracking-wider font-semibold">
           Contact Form
         </h5>

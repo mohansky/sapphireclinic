@@ -2,10 +2,11 @@ import Link from "next/link";
 import { Icon } from "@iconify/react";
 import SocialLinks from "@data/social-links.json";
 
-export default function FooterSocial() {
+export default function FooterSocial({className}) {
   return (
     <>
-      <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4">
+      <div className={` ${className}`}>
+      {/* <div className="w-full lg:w-2/6 mt-8 lg:mt-0 lg:mx-4"> */}
         <h6 className="uppercase tracking-wider font-semibold text-gray-300">
           Follow us on Social media
         </h6>

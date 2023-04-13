@@ -8,15 +8,11 @@ export default function Footer() {
   return (
     <>
       <footer className="relative bg-scfooterbg pb-10 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-12 lg:pt-24">
-        <div className="flex flex-col md:flex-row">
-          <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-            <FooterTreaments />
-          </div>
-          <div className="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-            <FooterMenu />
-          </div>
-          <FooterContacts />
-          <FooterSocial />
+        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-x-14">
+          <FooterTreaments className="col-span-1 mb-8" />
+          <FooterMenu className="col-span-1 mb-8" />
+          <FooterContacts className="col-span-2 mb-8" />
+          <FooterSocial className="col-span-2 mb-8" />
         </div>
       </footer>
 

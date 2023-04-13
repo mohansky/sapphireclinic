@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function DoctorCard({ doctor }) {
   return (
     <>
-      <div className="w-1/2 md:w-2/3 mx-auto">
+      <div className="w-3/4 lg:w-2/3 mx-auto">
         <div className="bg-white p-4">
           <Image
             src={doctor.image}
