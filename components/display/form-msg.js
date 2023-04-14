@@ -30,7 +30,8 @@ export default function FormMsg({className}) {
 
             <label className="block">
               <span className="text-gray-700">
-                Email address <span className="text-red-500">*</span>
+                Email address 
+                {/* <span className="text-red-500">*</span> */}
               </span>
               <input
                 type="email"

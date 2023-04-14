@@ -36,8 +36,8 @@ export default function Intro() {
             <Image
               className="image z-10 -mt-44 bg-white p-5"
               src={IntroList[0].img}
-              width={720}
-              height={480}
+              width={750}
+              height={1125}
               alt={IntroList[0].title}
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw"
