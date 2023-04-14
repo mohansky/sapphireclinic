@@ -1,8 +1,7 @@
 import HeroButton from "@ui/hero-button";
 import Image from "next/image";
 import Link from "next/link";
-import { imgblurDataURL } from "../../lib/constants";
-import Modal from "./modal";
+import { imgblurDataURL } from "../../lib/constants"; 
 
 export default function Hero({ item }) {
   return (
@@ -22,15 +21,14 @@ export default function Hero({ item }) {
             priority
           />
         </div>
-
         <div className="lg:w-3/4 xl:w-2/4 relative z-50 h-100 lg:mt-16">
           <div>
-            <h1 className="text-white text-4xl md:text-5xl xl:text-6xl font-bold leading-tight mb-5">
-              {item.subtitle}
-            </h1>
-            {/* <h2 className="text-slate-100 text-xl md:text-3xl leading-snug my-4 ">
+            <h1 className="text-xl md:text-3xl leading-snug my-4 ">
               {item.title}
-            </h2> */}
+            </h1>
+            <h2 className="drop-shadow-md shadow-black text-gray-200 text-5xl md:text-5xl xl:text-6xl font-bold leading-tight mb-5">
+              {item.subtitle}
+            </h2>
             <Link href={item.btnUrl}>
               <HeroButton>{item.btnText}</HeroButton>
             </Link>
