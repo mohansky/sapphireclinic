@@ -31,7 +31,7 @@ module.exports = {
         'scred': '#f88282',
         'scred-100': '#f95d5d',
         'scred-200': '#f83535', 
-        'scgrey': '#82a1ad',
+        'scgrey': '#435C65',
         'scgrey-100': '#35444a',
         'scgrey-200': '#222b2f', 
         'scfooterbg': '#35444a',
