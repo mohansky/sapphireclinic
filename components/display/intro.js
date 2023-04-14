@@ -41,6 +41,7 @@ export default function Intro() {
               alt={IntroList[0].title}
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw"
+              priority
             />
           </div>
         </motion.div>

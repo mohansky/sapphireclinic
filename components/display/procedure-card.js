@@ -14,7 +14,7 @@ export default function ProcedureCard({ procedure, className }) {
           height={360}
         />
         <div className="p-8">
-        <h6 className="text-xl mb-1">{procedure.number} Procedures</h6>
+        <h3 className="text-xl mb-1">{procedure.number} Procedures</h3>
         <h4 className="text-2xl font-semibold mb-3">{procedure.title}</h4>
         <p className="text-md mb-5">{procedure.text}</p>
         <Button className="mx-auto">Learn More</Button>
