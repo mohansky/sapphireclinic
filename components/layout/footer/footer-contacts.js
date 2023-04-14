@@ -11,12 +11,13 @@ export default function FooterContacts({className}) {
         </h6>
         <ul className="mt-4">
           {ContactDetailsList.map((item, index) => (
-            <li className={`mt-4 cursor-text flex ${item.class}`} key={index}>
+            <li className={`my-5 cursor-text flex ${item.class}`} key={index}>
               <a
                 href={item.url}
                 title={item.title}
                 className="flex"
-                target="blank"
+                target="_blank"
+                rel="noreferrer"
               >
                 <span>
                   <Icon icon={item.icon} className="w-6 h-6 cursor-default" />

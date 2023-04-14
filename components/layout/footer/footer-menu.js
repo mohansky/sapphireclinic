@@ -9,9 +9,9 @@ export default function FooterMenu({className}) {
         <h6 className="uppercase tracking-wider font-semibold text-gray-300">
           Information
         </h6>
-        <ul>
+        <ul className="mt-4">
           {FooterMenuList.map((item, index) => (
-            <li className="my-1 sc-link" key={index}>
+            <li className="my-3 sc-link" key={index}>
               <Link href={item.url} aria-label={item.title}>
                 {item.title}
               </Link>
