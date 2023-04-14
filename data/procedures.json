@@ -3,18 +3,21 @@
     "image": "/images/treatments/botox-and-dermal-fillers.jpg", 
     "number": "12",
     "title": "Cosmetology",
+    "URL":"/treatments/botox-and-dermal-fillers",
     "text": "cosmetic procedures, a variety of techniques and procedures are used, including facelift, eyelid surgery, body contouring, dermabrasion, laser skin."
   },
   {
     "image": "/images/treatments/skintag.jpg", 
     "number": "6",
     "title": "General Dermatology",
+    "URL":"/treatments/skintag",
     "text": "Dermatological procedures, including acne scar removal, chemical peels, dermabrasion, dermaplaning, and laser skin surgery."
   },
   {
     "image": "/images/treatments/meso-scalp.jpg", 
     "number": "3",
     "title": "Trichology",
+    "URL":"/treatments/meso-scalp",
     "text": "Hair Trichology Treatment can be both surgical and non-surgical processes to treat any hair or scalp disorder in both men and women."
   }
 ]
